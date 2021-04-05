@@ -39,3 +39,8 @@
   font-size: 15px;
   padding-top: 15px;
 }
+
+.login-form a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
