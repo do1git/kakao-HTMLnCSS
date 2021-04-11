@@ -1,0 +1,26 @@
+.user-component,  /* user-component에 align center안하면 어떻게 되는지?*/
+.user-component__columm {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 28px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 21px;
+}
+.user-component__subtitle {
+  opacity: 0.5;
+}
