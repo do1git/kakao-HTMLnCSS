@@ -6,6 +6,12 @@
   top: 0;
   box-sizing: border-box;
   width: 100%;
+  background-color: white;
+}
+
+#top-gap {
+  width: 100%;
+  height: 18px;
 }
 
 .status-bar__column:nth-child(2) {
