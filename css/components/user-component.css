@@ -1,7 +1,11 @@
-.user-component,  /* user-component에 align center안하면 어떻게 되는지?*/
+.user-component,  /* user-component에 align-items center안하면 어떻게 되는지?*/
 .user-component__columm {
   display: flex;
   align-items: center;
+}
+
+.user-component {
+  justify-content: space-between;
 }
 
 .user-component__avatar {
@@ -17,10 +21,24 @@
   border-radius: 28px;
 }
 
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 21px;
 }
 .user-component__subtitle {
   opacity: 0.5;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__columm:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
