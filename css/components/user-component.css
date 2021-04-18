@@ -1,7 +1,15 @@
 .user-component,  /* user-component에 align-items center안하면 어떻게 되는지?*/
-.user-component__columm {
+.user-component__column {
   display: flex;
   align-items: center;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .user-component {
@@ -39,6 +47,7 @@
   font-weight: 400;
 }
 
-.user-component__columm:last-child {
-  color: rgba(0, 0, 0, 0.5);
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }

@@ -6,7 +6,17 @@
   margin-bottom: 7px;
 }
 
-.screen-header__icon span {
+.screen-header__icon {
+  display: flex;
+}
+
+#find-header__red-dot {
+  position: relative;
+  top: -21px;
+  left: 20px;
+}
+.screen-header__icon > span,
+.screen-header__icon > div {
   margin-left: 23px;
 }
 

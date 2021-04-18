@@ -9,7 +9,7 @@
       content="width=device-width,
      initial-scale=1.0"
     />
-    <title>Chats - KakaoTalk</title>
+    <title>Settings - KakaoTalk</title>
   </head>
 
   <body>
@@ -29,34 +29,37 @@
     </div>
     <div id="top-gap"></div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icon">
-        <span><i class="fas fa-lg fa-search"></i></span>
-        <span><i class="fas fa-lg fa-music"></i></span>
-        <span><i class="fas fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-lg fa-cog"></i></span>
+    <header class="alt-header screen-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-lg"></i>
+      </div>
+      <div class="alt-header__column">
+        <div class="alt-header__title">Settings</div>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/77236617?s=60&v=4"
-            class="user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Duwon</h4>
-            <h6 class="user-component__subtitle">good to see ya</h6>
-          </div>
-        </div>
-
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <i class="fas fa-bullhorn"></i>
+          <span>Notices</span>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <i class="fas fa-flask"></i>
+          <span>Kakao Lab</span>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <i class="fas fa-info-circle"></i>
+          <span>Version</span>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -69,7 +72,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-lg fa-comment"></i
+            <i class="far fa-lg fa-comment"></i
           ></a>
         </li>
         <li class="nav__btn">
