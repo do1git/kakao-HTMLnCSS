@@ -83,3 +83,21 @@
   color: pink;
   margin-right: 3px;
 }
+@keyframes heartBeat {
+  0% {
+    color: pink;
+    transform: none;
+  }
+  50% {
+    color: palevioletred;
+    transform: scale(2);
+  }
+  100% {
+    color: pink;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
